@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor1: #5C1113;
+    --cor2: #A81E23;
+    --cor3: #752D2F;
+    --fonte1: 'Bebas Neue', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+body {
+    background-color: var(--cor3);
+    line-height: 1.5em ;
+    background-image: url('../aniversario-pipa/imagens/fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+header{
+    background-color: #dfdcb7;
+    padding: 15px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: var(--fonte1);
+}
+
+header > h1{
+    font-family: var(--fonte1);
+    color: rgb(73, 48, 39);
+    text-align: center;
+    margin: 5px;
+}
+
+header > nav >a{
+    font-family: var(--fonte1);
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-top: 20px;
+    color: rgb(73, 48, 39);
+    text-decoration: none;
+
+}
+
+section{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 400px;
+    
+}
+
+section > p{
+    font-family: var(--fonte1);
+    font-size: 1.2em;
+    padding:10px;
+    font-weight: bolder;
+    text-align: justify;
+    border-bottom: px;
+}
+
+footer{
+    background-color: #dfdcb7;
+    color: rgb(73, 48, 39);
+    text-align: center;
+    font-size: 1.2em;
+    font-family:var(--fonte1);
+    text-decoration: none;
+
+}
+footer > p > a {
+    text-decoration: none;
+    color: rgb(73, 48, 39);
+    font-weight: bolder;
+}
+
+
