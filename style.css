@@ -18,7 +18,7 @@
 body {
     background-color: var(--cor3);
     line-height: 1.5em ;
-    background-image: url('../aniversario-pipa/imagens/fundo.jpg');
+    background-image: url(fundo.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
